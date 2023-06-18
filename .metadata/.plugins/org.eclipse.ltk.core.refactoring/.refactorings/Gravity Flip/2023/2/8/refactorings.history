@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Snippet&apos; to &apos;Gravity_flip&apos;&#x0D;&#x0A;- Original project: &apos;Gravity Flip&apos;&#x0D;&#x0A;- Original element: &apos;Snippet&apos;&#x0D;&#x0A;- Renamed element: &apos;Gravity_flip&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Snippet&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Snippet.java[Snippet" matchStrategy="1" name="Gravity_flip" qualified="false" references="true" similarDeclarations="false" stamp="1677399429707" textual="false" version="1.0"/>
+</session>

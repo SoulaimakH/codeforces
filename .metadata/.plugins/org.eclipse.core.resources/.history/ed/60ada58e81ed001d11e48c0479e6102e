@@ -1,0 +1,33 @@
+package love_story;
+
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+	     Scanner scanner = new Scanner(System.in);
+	        int t = scanner.nextInt();
+	        while (t-- > 0) {
+	            String s = scanner.next();
+	            int[] count = new int[26];
+	            for (int i = 0; i < 10; i++) {
+	                count[s.charAt(i) - 'a']++;
+	            }
+	            int c = count['c' - 'a'];
+	            int o = count['o' - 'a'];
+	            int d = count['d' - 'a'];
+	            int e = count['e' - 'a'];
+	            int f = count['f' - 'a'];
+	            int r = count['r' - 'a'];
+	            int s1 = count['s' - 'a'];
+	            int u = count['u' - 'a'];
+	            int diff = (c >= 1 && o >= 2 && d >= 1 && e >= 2 && f >= 1 && r >= 1 && s1 >= 1) ? 0 : Math.min(Math.min(Math.max(0, 1 - c), Math.max(0, 2 - o)), Math.min(Math.min(Math.max(0, 1 - d), Math.max(0, 2 - e)), Math.min(Math.max(0, 1 - f), Math.min(Math.max(0, 1 - r), Math.max(0, 1 - s1) + Math.max(0, 1 - u)))));
+	            System.out.println(diff);
+	        }
+	        scanner.close();
+	    }
+		
+ 
+	
+
+}
