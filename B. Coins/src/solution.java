@@ -11,6 +11,7 @@ Scanner scan = new Scanner(System.in);
 
 		
 		int n =scan.nextInt();
+		// max size can be is 100005
 		int [] array1= new int[100005];
 		int i;
 		for(i=0; i<n;i++) {
